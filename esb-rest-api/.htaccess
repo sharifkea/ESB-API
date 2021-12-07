@@ -1,0 +1,27 @@
+RewriteEngine On
+
+# esb
+
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule ^get-pass$ get-pass.php [NC,L]
+
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule ^put-pass$ put-pass.php [NC,L]
+
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule ^put-msg$ put-msg.php [NC,L]
+
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule ^get-msg$ get-msg.php [NC,L]
+
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule ^put-del$ put-del.php [NC,L]
+
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule ^get-phone$ get-phone.php [NC,L]
+
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule ^put-pub$ put-pub.php [NC,L]
+
+
+
